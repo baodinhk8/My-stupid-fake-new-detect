@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "project KHKT",
+    "description": "Author: Dinh Gia Bao",
+    "version": "1.0.0",
+    "icons": {
+        "128": "icon_128.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ]
+}

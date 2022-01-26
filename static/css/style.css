@@ -1,0 +1,28 @@
+#main {
+    font-family: sans-serif;
+    margin: auto;
+    width: 60%;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.input {
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid green;
+}
